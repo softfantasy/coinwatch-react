@@ -1,0 +1,159 @@
+/* @import '../node_modules/loaders.css/src/animations/pacman.scss'; */
+html {
+  height: 100%;
+}
+
+/* All */
+body {
+    /* background-color: #A0D1F7; */
+    background-image: url('./img/sky.jpg');
+    background-size: cover;
+    vertical-align: middle !important;
+    text-align: center !important;
+    height: 100%;
+}
+
+/* header_home */
+.Header {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+p.header-home {
+    font-family: 'Gugi', cursive;
+    font-size: 4em;
+    color: whitesmoke;
+}
+
+/* coin_list */
+.card { 
+  background-color: rgba(245, 245, 245, 0.8); 
+}
+
+.card-header, .card-footer {
+   opacity: 1
+}
+
+.coin_list_img {
+  width: 2em;
+  height: 2em;
+}
+
+/* chart_in_coin_home */
+.chart-home {
+  width: 10em;
+  height: 8em;
+}
+
+/* CoinShow */
+.CoinShow {
+  background-color: rgb(233, 236, 241);
+}
+
+/* header_show */
+.header {
+  background-image: url('./img/sky.jpg');
+  background-size: cover;
+  line-height: 3.5em;
+  padding-left: 2%;
+}
+
+.header-title {
+  vertical-align: middle;
+  font-size: 1.8em;
+  font-family: 'Gugi', cursive;
+}
+
+/* CoinShow-body */
+.CoinShow-body {
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+}
+
+/* coin_info_tabs */
+.tab-content {
+  background-color: white;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* coin_info_top */
+td.coin-title {
+  font-size: 2em;
+}
+
+.coin-info-price {
+  font-size: 1.5em;
+}
+
+.word-sm {
+  font-size: 0.8em;
+}
+
+.per-bar {
+  height: inherit;
+}
+
+td {
+  width: 33%;
+}
+
+/* test */
+div#myGrid {
+    height: 115px;
+    widows: 500px;
+}
+.react-grid-layout {
+    position: relative;
+    transition: height 200ms ease;
+  }
+  .react-grid-item {
+    /* transition: all 200ms ease; */
+    /* transition-property: left, top; */
+  }
+  .react-grid-item.cssTransforms {
+    transition-property: transform;
+  }
+  .react-grid-item.resizing {
+    z-index: 1;
+    will-change: width, height;
+  }
+  
+  .react-grid-item.react-draggable-dragging {
+    transition: none;
+    z-index: 3;
+    will-change: transform;
+  }
+  
+  .react-grid-item.react-grid-placeholder {
+    background: rgb(67, 46, 161);
+    opacity: 0.2;
+    transition-duration: 100ms;
+    z-index: 2;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+  
+  .react-grid-item > .react-resizable-handle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 0;
+    right: 0;
+    cursor: se-resize;
+  }
+  
+  .react-grid-item > .react-resizable-handle::after {
+    content: "";
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    width: 5px;
+    height: 5px;
+    border-right: 2px solid rgba(0, 0, 0, 0.4);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+  }
+  
